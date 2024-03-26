@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_logo{
+    height:50px;
+    width:110px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width: 100%;
+}
+.nav_address{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.border{
+    border: 1.25px solid transparent;
+    border-radius: 2px;
+}
+.border:hover{
+    border: 1.25px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.fir_add{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-left: 22px;
+    color: #ccc;
+}
+.nav_icon{
+    display: flex;
+    margin-left: 7px;
+}
+.sec_add{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    margin-left: 3px;
+}
+.nav_search{
+    display:flex;
+    height: 40px;
+    width: 620px;
+    background-color: orange;
+    border-radius: 4px;
+    justify-content: space-around;
+    margin: 40px;
+}
+.select_items{
+    width:50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 14px;
+    color: #0f1111;
+}
+.enter_prd{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+.language{
+    display:flex;
+    align-items: center;
+    height: 50px;
+}
+.flag{
+    font-size: 14px;
+    font-weight: 700;
+}
+.lng{
+    background-color: #131921;
+    font-size: 14px;
+    font-weight: 700;
+    border:none;
+    color: white;
+}
+.search_icon{
+    width: 45px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.enter_prd:active{
+    border: none;
+}
+.sign_in{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
+}
+.account{
+    border: none;
+    background-color:#131921;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 4px;
+}
+.hello{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 9px;
+}
+.return_order{
+    display:flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
+}
+.return{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+.order{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 4px;
+}
+.cart{
+    display: flex;
+    height: 50px;
+    align-items:center;
+}
+.icon_cart{
+    font-size:xx-large;
+}
+.text_cart{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: end;
+    padding-top: 17px;
+}
+.navbar select:hover{
+    cursor:pointer;
+}
+.panel{
+    height:39px;
+    background-color: #1b2f49;
+    display:flex;
+    color:white;
+    font-size: 14px;
+    justify-content: space-around;
+}
+.panel_menu{
+    display:flex;
+    align-items: center;
+    height: 38px;
+    margin-left: 8px;
+    gap: 5px;
+}
+.menu{
+    font-size: 14px;
+    font-weight: 700px;
+    margin-left: 5px;
+}
+.all{
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.pan{
+    display: flex;
+    align-items: center;
+}
+.prime{
+    background-color: #1b2f49;
+    color:white;
+    border:none;
+}
+.main_sec{
+    background-image: url("main_img.jpg");
+    height:600px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.arrow{
+    display: flex;
+    color: rgb(16, 14, 14);
+    text-shadow: 1px 1px white;
+    font-size: 50px;
+    justify-content: space-between;
+    height: 250px;
+    align-items: center;
+}
+.right{
+    margin-right: 80px;
+}
+.left{
+    margin-left: 80px;
+}
+.right:hover{
+    cursor: pointer;
+}
+.left:hover{
+    cursor:pointer;
+}
+.inner_text{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 40px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#click{
+    text-decoration: none;
+    color: blue;
+    font-weight: lighter;
+}
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.box{
+    height: 400px;
+    background-color: white;
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+
+}
+.box-img{
+    background-size: cover;
+    height: 300px;
+    width: 270px;
+    margin: 10px;
+}
+.box>a{
+    color:rgb(21, 127, 148);
+}
+.box-img:hover{
+    cursor: pointer;
+}
+.before_end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reccom{
+    margin-top: 80px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.end{
+    font-size: 10px;
+}
+.sign_inn{
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    width: 200px;
+    align-items: center;
+    margin: 4px;
+    background-color: rgb(246, 177, 50);
+    border: 2px solid rgb(249, 169, 19);
+    border-radius: 4px;
+}
+.sign_inn:hover{
+    cursor: pointer;
+}
+.end{
+    margin-bottom: 40px;
+}
+.back{
+    margin-top: 15px;
+    background-color: #42556e;
+    height: 49px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.back:hover{
+    background-color: #8ba0bd;
+    cursor: pointer;
+}
+.cncl{
+    height: 400px;
+    background-color: #1b2f49;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.first_cncl>p{
+    margin:10px;
+}
+.sec_cncl>p{
+    margin:10px;
+}
+.third_cncl>p{
+    margin: 10px;
+}
+.fourth_cncl>p{
+    margin: 10px;
+}
+.cncl>div>p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.f_end{
+    height: 60px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.f_endd{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 12px;
+}
+.f_end>div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.f_eend{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
